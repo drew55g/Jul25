@@ -18,6 +18,9 @@
 		3A2C601C17A1A9370013F572 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C601B17A1A9370013F572 /* Default-568h@2x.png */; };
 		3A2C601F17A1A9370013F572 /* jul25ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C601E17A1A9370013F572 /* jul25ViewController.m */; };
 		3A2C602217A1A9370013F572 /* jul25ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C602017A1A9370013F572 /* jul25ViewController.xib */; };
+		3A2C602917A1B4450013F572 /* button-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C602817A1B4450013F572 /* button-16.mp3 */; };
+		3A2C602B17A1B47E0013F572 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2C602A17A1B47E0013F572 /* AVFoundation.framework */; };
+		3A2C602D17A1B4E60013F572 /* button-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C602C17A1B4E60013F572 /* button-10.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		3A2C601D17A1A9370013F572 /* jul25ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jul25ViewController.h; sourceTree = "<group>"; };
 		3A2C601E17A1A9370013F572 /* jul25ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jul25ViewController.m; sourceTree = "<group>"; };
 		3A2C602117A1A9370013F572 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/jul25ViewController.xib; sourceTree = "<group>"; };
+		3A2C602817A1B4450013F572 /* button-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-16.mp3"; sourceTree = "<group>"; };
+		3A2C602A17A1B47E0013F572 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A2C602C17A1B4E60013F572 /* button-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-10.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2C602B17A1B47E0013F572 /* AVFoundation.framework in Frameworks */,
 				3A2C600617A1A9370013F572 /* UIKit.framework in Frameworks */,
 				3A2C600817A1A9370013F572 /* Foundation.framework in Frameworks */,
 				3A2C600A17A1A9370013F572 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +80,7 @@
 		3A2C600417A1A9370013F572 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A2C602A17A1B47E0013F572 /* AVFoundation.framework */,
 				3A2C600517A1A9370013F572 /* UIKit.framework */,
 				3A2C600717A1A9370013F572 /* Foundation.framework */,
 				3A2C600917A1A9370013F572 /* CoreGraphics.framework */,
@@ -96,6 +104,8 @@
 		3A2C600C17A1A9370013F572 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A2C602817A1B4450013F572 /* button-16.mp3 */,
+				3A2C602C17A1B4E60013F572 /* button-10.mp3 */,
 				3A2C600D17A1A9370013F572 /* Jul25-Info.plist */,
 				3A2C600E17A1A9370013F572 /* InfoPlist.strings */,
 				3A2C601117A1A9370013F572 /* main.m */,
@@ -164,6 +174,8 @@
 				3A2C601A17A1A9370013F572 /* Default@2x.png in Resources */,
 				3A2C601C17A1A9370013F572 /* Default-568h@2x.png in Resources */,
 				3A2C602217A1A9370013F572 /* jul25ViewController.xib in Resources */,
+				3A2C602917A1B4450013F572 /* button-16.mp3 in Resources */,
+				3A2C602D17A1B4E60013F572 /* button-10.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
